@@ -1,0 +1,256 @@
+Here’s a complete HTML file that includes all the required sections, formatted neatly and ready to run in any browser.
+You can copy this code into a file named shop.html and open it in your browser.
+
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deejay's Shop</title>
+    <style>
+        /* General Reset */
+        body, h1, h2, h5, p, table {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            scroll-behavior: smooth;
+        }
+
+        /* Header */
+        header {
+            background: url('https://via.placeholder.com/1200x300.png?text=Shop+Banner') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        header h1 {
+            background-color: rgba(0, 0, 128, 0.7);
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 10px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0047ab;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 40px 60px;
+        }
+
+        /* Shop Information */
+        #info h2 {
+            color: #0047ab;
+            margin-bottom: 10px;
+        }
+        #info h5 {
+            color: #333;
+            margin-top: 15px;
+        }
+
+        /* Shop Gallery */
+        #gallery table {
+            width: 100%;
+            border-spacing: 20px;
+            text-align: center;
+        }
+        #gallery img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+        #gallery h3, #gallery h4 {
+            margin: 8px 0;
+        }
+        #gallery button {
+            background-color: #0047ab;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #gallery button:hover {
+            background-color: #00357a;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0047ab;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- A.1 Header -->
+    <header>
+        <h1>Deejay’s Awesome Shop</h1>
+    </header>
+
+    <!-- A.2 Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#info">Shop Information</a>
+        <a href="#gallery">Shop Gallery</a>
+        <a href="#footer">Footer</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Deejay’s Shop!</h2>
+        <p>We offer a variety of quality items at affordable prices. Explore our shop below!</p>
+    </section>
+
+    <!-- A.3 Content 1 - Shop Information -->
+    <section id="info">
+        <h2>Shop Information</h2>
+
+        <h5>Shop Name:</h5>
+        <p>Deejay’s Awesome Shop</p>
+
+        <h5>Shop Address:</h5>
+        <p>123 Sunshine Street, Manila, Philippines</p>
+
+        <h5>Shop Number:</h5>
+        <p>+63 912 345 6789</p>
+
+        <h5>Shop Email Address:</h5>
+        <p>deejayshop@example.com</p>
+
+        <h5>Office Hours / Operating Hours:</h5>
+        <p>Monday - Saturday: 9:00 AM - 8:00 PM</p>
+    </section>
+
+    <!-- A.4 Content 2 - Shop Gallery -->
+    <section id="gallery">
+        <h2>Shop Gallery</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 1">
+                    <h3><b>Item 1</b></h3>
+                    <p>High-quality item perfect for daily use.</p>
+                    <h4><b>₱499</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 2">
+                    <h3><b>Item 2</b></h3>
+                    <p>Durable and stylish, made to last.</p>
+                    <h4><b>₱699</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 3">
+                    <h3><b>Item 3</b></h3>
+                    <p>Modern design and great performance.</p>
+                    <h4><b>₱899</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 4">
+                    <h3><b>Item 4</b></h3>
+                    <p>Compact and affordable must-have.</p>
+                    <h4><b>₱299</b></h4>
+                    <button>Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 5">
+                    <h3><b>Item 5</b></h3>
+                    <p>Perfect gift idea for all occasions.</p>
+                    <h4><b>₱399</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 6">
+                    <h3><b>Item 6</b></h3>
+                    <p>Stylish and comfortable everyday use.</p>
+                    <h4><b>₱499</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 7">
+                    <h3><b>Item 7</b></h3>
+                    <p>Premium materials, premium quality.</p>
+                    <h4><b>₱999</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 8">
+                    <h3><b>Item 8</b></h3>
+                    <p>Designed for durability and style.</p>
+                    <h4><b>₱650</b></h4>
+                    <button>Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 9">
+                    <h3><b>Item 9</b></h3>
+                    <p>Lightweight and easy to use.</p>
+                    <h4><b>₱550</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 10">
+                    <h3><b>Item 10</b></h3>
+                    <p>Excellent performance and great value.</p>
+                    <h4><b>₱799</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 11">
+                    <h3><b>Item 11</b></h3>
+                    <p>Stylish upgrade for your collection.</p>
+                    <h4><b>₱899</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/200" alt="Item 12">
+                    <h3><b>Item 12</b></h3>
+                    <p>Top-rated choice among customers.</p>
+                    <h4><b>₱999</b></h4>
+                    <button>Buy Now</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- A.5 Footer -->
+    <footer id="footer">
+        <p>Developed by: <b>Deejay Soriano</b> | Year and Section: BSIT 3A</p>
+    </footer>
+
+</body>
+</html>
+
+
+---
+
+Would you like me to add a responsive layout (so it looks better on phones and tablets)?
